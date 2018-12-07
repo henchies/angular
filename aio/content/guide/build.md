@@ -460,7 +460,7 @@ module.exports = PROXY_CONFIG;
 
 ### Using corporate proxy
 
-If you work behind a corporate proxy, the cannot directly proxy calls to any URL outside your local network. 
+If you work behind a corporate proxy, you cannot directly proxy calls to any URL outside your local network. 
 In this case, you can configure the backend proxy to redirect calls through your corporate proxy using an agent:
 
 <code-example language="none" class="code-shell">
